@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background {
+    height: 100%;
+    max-width: 1920px;
+    background: url("../images/BG2.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+}
+
+.header .avatar {
+    display: block;
+    border-radius: 80px;
+    height: 6%;
+    width: 6%;
+    margin: 0 auto;
+}
+
+.header .name {
+    margin: 2% auto 0;
+    color: white;
+    text-align: center;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    text-shadow: 0 0 0 #FF0000;
+    line-height: 1.4;
+}
+
+.header .name:hover {
+    text-shadow: 0 0 10px white;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.button {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+}
+
+.button a {
+    margin: 20px 20px;
+    padding: 8px 12px;
+    background-color: Transparent;
+    color: white;
+    min-width: 120px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "akagi-pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button a:hover {
+    color: #042552;
+    background-color: white;
+    transition: 0.6s;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 2%;
+    font-family: "akagi-pro", sans-serif;
+    font-weight: 400;
+    font-size: 85%;
+    line-height: 1.4;
+    text-align: center;
+    color: #042552;
+    width: 100%;
+}
+
+.copyright .language {
+    color: #042552;
+}
